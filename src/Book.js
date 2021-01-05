@@ -1,4 +1,5 @@
 import React from "react";
+import "./index.css";
 
 const Book = (props) => {
   const { img, title, author } = props; //destructuring para no poner prop.img,title,author todo el rato en el return
